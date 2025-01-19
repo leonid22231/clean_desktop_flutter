@@ -1,0 +1,37 @@
+name: clean_desktop
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  system_tray: ^2.0.3
+  intl: ^0.20.1
+  http: ^1.2.2
+  logger: ^2.5.0
+  window_manager: ^0.4.2
+  shared_preferences: ^2.3.5
+  filepicker_windows: ^2.1.4
+  process_run: ^1.2.2+1
+  crypto: ^3.0.6
+  json_annotation: ^4.9.0
+  flutter_svg: ^2.0.17
+  convert: ^3.1.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
